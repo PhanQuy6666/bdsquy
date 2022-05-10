@@ -1,0 +1,184 @@
+
+
+.top{
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+}
+.top-left{
+    width: 50%;
+    height: 40px];
+    float: left;
+}
+ .top-right{
+     width: 50%;
+     height: 40px;
+     float: left;
+ }
+ .logo{
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+.logo-left{
+    width: 30%;
+    height: 80px;
+    color: white;
+    float: left;
+    font-size: 60px;
+
+ 
+}
+
+.logo-right{
+    width: 100%;
+    height: 120px;
+    
+    float: right;
+    font-size: 30px;
+    text-align: center;
+}
+
+.logo-right ul li {
+    color: black;
+    display: inline-table;
+    padding: 28px;
+}
+
+.background{
+    margin: 1%;
+    width: 98%;
+    height: 519px;
+    background-image: url(backgroud.jpg);
+    background-size: 100%;
+    
+}
+.content{
+    margin: 0 auto;
+    width: 1360px;
+    height: 1000px;
+    
+    
+}
+.content-left{
+    width: 160px;
+    height: 1000px;
+    background-color: aquamarine;
+    float: left;
+}
+.khuvuc{
+    width: 100%;
+    background-color: #808080;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.huyen{
+    margin-bottom: 0;
+    width: 100%;
+    height: 15px;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    
+    justify-content: left;
+}
+
+.danhsach{
+    width: 100%;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+}
+.danhsach ul li{
+    font-size: 23px;
+    padding: 0;
+    margin: 5px;
+    list-style-type: none;
+    text-align: left;
+}
+.tamduong{
+    margin-bottom: 0;
+    width: 100%;
+    height: 15px;
+    font-size: 26px;
+    color: black;
+    display: flex;
+    
+    justify-content: left;
+
+}
+.tamdao{
+    margin-bottom: 0;
+    width: 100%;
+    height: 15px;
+    font-size: 26px;
+    color: black;
+    display: flex;
+    
+    justify-content: left;
+
+}
+.content-right{
+    width: 1200px;
+    height: 1000px;
+    
+    float: left;
+    
+}
+
+.hot{
+    width: auto;
+    height:50px;
+    
+    background-color:yellow;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.sanpham{
+    width: 95%;
+    height: 204px;
+    margin: 2%;
+    background-color: #808080;
+}
+
+.sanpham-l{
+    width: 23%;
+    height: 204px;
+    float: left;
+}
+.sanpham-r{
+    width: 77%;
+    height: 204px;
+    float: left;
+    background-color: bisque;
+    font-size: 25px;
+    
+}
+a{
+    text-decoration: none
+}
+
+.thongtin{
+    width: 300px;
+    height: 190px;
+    background-color: violet;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 21px;
+}

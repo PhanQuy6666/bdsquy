@@ -1,0 +1,220 @@
+.top{
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    
+}
+.top-left{
+    width: 50%;
+    height: 40px];
+    float: left;
+}
+ .top-right{
+     width: 50%;
+     height: 40px;
+     float: left;
+ }
+ .logo{
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.logo-left{
+    width: 35%;
+    height: 100%;
+    color: white;
+    float: left;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+ 
+}
+
+
+.trangchu{
+    width: 65%;
+    height: 100%;
+    background-color:white;
+    float: right;
+    
+}
+
+.trangchu ul li{
+    width: 14%;
+    height: 100%;
+    padding: 19px;
+    list-style-type: none;
+    float: left;
+    position: relative;
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.trangchu ul ul{
+    visibility: hidden;
+    position: absolute;
+    left: -40px;
+    top: 50px;
+    border-radius: 10px;
+    
+}
+.trangchu ul li:hover ul{
+    visibility: visible;
+}
+#phongthuy li{
+    
+    background-color: white;
+    width: 145px;
+    height: 100%;
+    font-size: 16px;
+    
+    
+
+}
+.trangchu li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.background{
+    margin: 1%;
+    width: 98%;
+    height: 519px;
+    background-image: url(backgroud.jpg);
+    background-size: cover;
+    
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+    
+}
+@keyframes example{
+    form{background-image: url(backgroud.jpg);}
+    to {background-image: url(/background2.png);background-size: cover;}
+}
+
+.content{
+    margin: 0 auto;
+    width: 80%;
+    height: 1000px;
+    
+}
+a{
+    text-decoration: none
+}
+.content-left{
+    width: 15%;
+    height: 550px;
+    background-color: aquamarine;
+    float: left;
+}
+.khuvuc{
+    width: 100%;
+    background-color: #808080;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.danhsach{
+    width: 100%;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+}
+.danhsach ul li{
+    font-size: 23px;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.huyen{
+    margin-bottom: 0;
+    width: 100%;
+    height: 15px;
+    font-size: 25px;
+    color: black;
+    
+    padding-left: 10px;
+    
+}
+.content-right{
+    width: 85%;
+    height: 550px;
+    background-color: aqua;
+    float: right;
+}
+
+.hot{
+    width: auto;
+    height:50px;
+    
+    background-color:yellow;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.sanpham{
+    width: 95%;
+    height: 225px;
+    margin: 2%;
+    background-color: bisque;
+}
+
+.sanpham-l{
+    width: 30%;
+    height: 100%;
+    float: left;
+    
+    
+}
+
+
+.sanpham-r{
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color: bisque;
+    font-size: 25px;
+    
+}
+.content-buttom{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    float: left;
+    background-color:#808080 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thongtin{
+    width: 300px;
+    height: 190px;
+    background-color: violet;
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+    font-size: 21px;
+    border-radius: 10px;
+}
