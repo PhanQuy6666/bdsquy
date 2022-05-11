@@ -18,6 +18,7 @@
      height: 40px;
      float: left;
  }
+
  .logo{
     margin-top: 40px;
     width: 100%;
@@ -37,7 +38,79 @@
     align-items: center;
  
 }
+@media only screen and (max-width: 390px) {
+    .top-left{
+        display: none;
+    }
+    .logo-left{
+        font-size: 30px;
+        width: 60%;
+        
+    }
+    .trangchu{
+        display: none;
+    }
+    .trangchuphu{
+        font-size: 25px;
+        position: relative;
+        
+    }
+    .content{
+        width: 100%;
+        margin: 0;
+    }
+    .content-left{
+        display: none;
+    }
+    .content-right{
+        width: 100%;
+        
+        font-size: 15px;
+        margin: 0;
+    }
+    .sanpham{
+        width: 100%;
+        height: 100px;
+    }
+    .sanpham a {
+        font-size: 12px;
+    }
+    .sanpham img{
+        width: 100%;
+        height: 100%;
+    }
+    .content-buttom nav {
+        font-size: 9px;
+    }
+    .danhsach a {
+        font-size: 16px;
+    }
+    .danhsach{
+        display: none;
+        width: 35px;
+        position: absolute;
+        left: -5px;
+        top: 30px;
+        
+    }
+    .danhsach ul {
+        margin: 0;
+    }
+    .danhsach nav {
+        font-size: 20px;
+        margin: 0;
+    }
+    .trangchuphu:hover .danhsach{
+        display: block;
+    }
 
+
+}
+@media only screen and (min-width: 391px) {
+    .trangchuphu{
+        display: none;
+    }
+}
 
 .trangchu{
     width: 65%;
@@ -46,6 +119,7 @@
     float: right;
     
 }
+
 
 .trangchu ul li{
     width: 14%;
@@ -105,6 +179,18 @@
 @keyframes example{
     form{background-image: url(backgroud.jpg);}
     to {background-image: url(/background2.png);background-size: cover;}
+}
+.background img {
+    opacity: 0.6;
+    animation-name: may;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+    position: relative;
+}
+@keyframes may {
+    0% {left: 0;}
+    100%{left: 50%;}
 }
 
 .content{
@@ -172,6 +258,13 @@ a{
     display: flex;
     align-items: center;
     padding-left: 20px;
+    animation-name: nhaynhay;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes nhaynhay {
+    0% {color:red;}
+    100% {color: blue;}
 }
 
 .sanpham{
